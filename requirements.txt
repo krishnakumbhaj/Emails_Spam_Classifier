@@ -1,0 +1,28 @@
+Your requirements.txt covers most common packages for data science and NLP projects. However, here are a few suggestions:
+
+1. Specify versions for reproducibility. For example:
+            ```
+            streamlit==1.32.2
+            scikit-learn==1.4.2
+            pandas==2.2.2
+            numpy==1.26.4
+            matplotlib==3.8.4
+            seaborn==0.13.2
+            nltk==3.8.1
+            wordcloud==1.9.3
+            xgboost==2.0.3
+            scipy==1.13.0
+            joblib==1.4.2
+            pickle5==0.0.12
+            ```
+
+2. pickle5 is only needed for Python <3.8. If you use Python 3.8+, you can remove it.
+
+3. If your code uses other libraries (like Flask, TensorFlow, etc.), add them.
+
+4. Consider adding a comment at the top:
+            ```
+            # requirements.txt for Email_Spam project
+            ```
+
+Let me know if you want a version-pinned requirements.txt!
